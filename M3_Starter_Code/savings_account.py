@@ -40,30 +40,13 @@ def create_savings_account(balance, interest_rate, months):
 
     return updated_balance, interest_earned
 
-# Example usage
-if __name__ == "__main__":
-    initial_balance = 1000  # Example balance
-    apr = 0.05  # Example annual interest rate (5%)
-    duration = 6  # Example duration in months
+# # Example usage
+# if __name__ == "__main__":
+#     initial_balance = 1000  # Example balance
+#     apr = 0.05  # Example annual interest rate (5%)
+#     duration = 6  # Example duration in months
 
     new_balance, earned_interest = create_savings_account(initial_balance, apr, duration)
     print(f"New Balance: {new_balance}")
     print(f"Interest Earned: {earned_interest}")
 
-    
-    
-
-    # Calculate interest earned
-   
-
-    # Update the savings account balance by adding the interest earned
-    # ADD YOUR CODE HERE
-
-    # Pass the updated_balance to the set balance method using the instance of the SavingsAccount class.
-    # ADD YOUR CODE HERE
-
-    # Pass the interest_earned to the set interest method using the instance of the SavingsAccount class.
-    # ADD YOUR CODE HERE
-
-    # Return the updated balance and interest earned.
-    # ADD YOUR CODE HERE
