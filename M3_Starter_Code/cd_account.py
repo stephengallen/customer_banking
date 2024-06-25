@@ -32,7 +32,3 @@ def create_cd_account(balance, interest_rate, months):
     account.set_interest(interest_earned)
 
     return updated_balance, interest_earned
-
-# new_balance, earned_interest = create_cd_account(initial_balance, apr, duration)
-# print(f"New Balance: {new_balance}")
-# print(f"Interest Earned: {earned_interest}")
